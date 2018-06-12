@@ -15,24 +15,23 @@ function setup()
  background1 = loadImage("Background.jpg");
   cenario = 1;
   compass = loadImage('img/Compass.png');
-  pauseButton = loadImage('img/pauseButton.png')
+  pauseButton = loadImage('img/PauseButton.png');
   MapCircle = loadImage('img/MapCircle.png');
-  correct = loadImage('img/correct.png')
-  PhotoCamButton = loadImage('img/PhotoCamButton.png')
+  correct = loadImage('img/Correct.png');
+  PhotoCamButton = loadImage('img/PhotoCamButton.png');
 
   checkpoint1 = false;
   checkpoint2 = false;
   checkpoint3 = false;
 
   iniciaCaptura();
-
 }
 
 function draw()
 {
   if (cenario === 1) introducao();
   else
-  if (cenario === 2) desenvolvimento();
+  if (cenario === 2) verificaCaptura();
   else
   if (cenario === 3) conclusao();
   else
@@ -41,8 +40,6 @@ function draw()
     fill(255);
     text ("O cenário não existe", width/2, height/2);
   }
-
-  if (cenario === 2) verificaCaptura();
 }
 
 function keyPressed()
