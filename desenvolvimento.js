@@ -1,4 +1,4 @@
-function iniciaCaptura() 
+function iniciaCaptura()
 {
   //var capturaOptions = {audio: false, video: {facingMode: {exact: "environment"}}};
   //captura = createCapture (capturaOptions); //mobile
@@ -17,10 +17,13 @@ function verificaCaptura()
 {
   if (checkpoint1 && checkpoint2 && checkpoint3)
   {
+    /*
     textSize(50);
     fill (255, 0, 0);
     text("Passou no teste", width/2, height/2);
     print("Passou no teste");
+    */
+    conclusao();
   }
 
   else
