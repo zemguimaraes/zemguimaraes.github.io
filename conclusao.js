@@ -1,7 +1,7 @@
 function conclusao(){
   imageMode(CORNER);
   background(0, 0, 255);
-  image(background1,0,0,windowWidth, windowHeight);
+  image(background1,0,0,width, height);
   image(compass, width-width/20, height/4.9, width/35, width/35);
   image(pauseButton, width/74, height-height/7.2, width/35, width/35);
   image(MapCircle, width-width/14, height-height/6.7, width/16, width/16);
