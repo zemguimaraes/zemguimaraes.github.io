@@ -1,4 +1,5 @@
 function conclusao(){
+  imageMode(CORNER);
   background(0, 0, 255);
   image(background1,0,0,windowWidth, windowHeight);
   image(compass, width-width/20, height/4.9, width/35, width/35);
