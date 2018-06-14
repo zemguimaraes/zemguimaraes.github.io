@@ -34,7 +34,7 @@ function conclusao(){
     noStroke();
     fill(64, 64, 64, 220);
     text("Missions", 0, 0);
-    rect(width/13, height/100, width/6.3, height/17, 8);
+    rect(width/13, height/230, width/6.3, height/17, 8);
     fill(255, 255, 255);
     textSize(width/90);
     text("Missions", width/13, height/50);
@@ -66,7 +66,7 @@ angleMode(DEGREES);
 stroke(48, 168, 224);
 strokeWeight(width/200);
 noFill();
-arc(width-width/9.18, height/7, width/20, height/10, 0, -90);
+arc(width-width/3, height/7, width/20, height/10, 0, -90);
 noStroke();
 textSize(width/32);
 fill(48, 168, 224);
@@ -79,7 +79,7 @@ angleMode(DEGREES);
 stroke(234, 51, 57);
 strokeWeight(width/200);
 noFill();
-arc(width-width/26.5, height/7, width/20, height/10, 0, 360);
+arc(width-width/2, height/7, width/20, height/10, 0, 360);
 noStroke();
 textSize(width/40);
 fill(234, 51, 57);
