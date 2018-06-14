@@ -34,7 +34,7 @@ function conclusao(){
     noStroke();
     fill(64, 64, 64, 220);
     text("Missions", 0, 0);
-    rect(width/13, height/230, width/6.3, height/17, 8);
+    rect(width/13, height/100, width/6.3, height/17, 8);
     fill(255, 255, 255);
     textSize(width/90);
     text("Missions", width/13, height/50);
